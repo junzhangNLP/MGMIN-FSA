@@ -8,7 +8,7 @@
 
 
 ## Project Structure
-'''
+```python3
 ├── dataset/                    # Dataset directory
 │   ├── CH-SIMS/               # CH-SIMS dataset
 │   └── fasmr/                 # Other datasets
@@ -26,7 +26,7 @@
 │   ├── kan.py                # KAN network implementation
 │   └── Utils.py              # Utility functions
 └── main.py                   # Main program entry point
-'''
+```
 
 ## 1. Dataset Download Instructions
 CH-SIMS Dataset：
