@@ -4,7 +4,7 @@
 
 Automated sentiment analysis of extensive financial review videos provides investors with a precise understanding of market sentiment. However, compared to videos in other domains, financial review videos contain extensive financial jargon and exhibit more nuanced sentiment changes in facial expressions and vocal tones. Most traditional models focus solely on either coarse-grained or fine-grained multimodal sentiment expression. This limitation renders them ineffective in handling videos with subtle sentiment changes, restricting their applicability to analysing sentiment in financial review videos. This paper introduces the Multi-Granularity Multimodal Interaction Network (MGMIN-FSA) for analysing sentiment in financial review videos. First, the Fine-grained Multimodal Interaction Network (FMN) is presented, incorporating Kolmogorov-Arnold Network (KAN) and attention mechanisms to extract crucial phrase-level features across modalities, producing fine-grained sentiment expressions. Additionally, KAN-Attention within FMN improves the model's generalization capability. Second, the Coarse-grained Feature Decoupling Network (CFDN) is introduced, establishing anchors at both modal and sentiment feature levels to improve differentiation between positive and negative samples. Finally, MGMIN-FSA integrates fine- and coarse-grained representations for sentiment analysis using downstream classifiers. MGMIN-FSA obtains the best performance on the FMSA-SC and CH-SIMS datasets among all compared methods. Furthermore, experimental results demonstrate that KAN-Attention can maintain high performance despite insufficient data. Our codes can be found at https://github.com/junzhangNLP/MGMIN-FSA.
 
-![](./fig2.pdf)
+![](./img.png)
 
 
 ## Project Structure
