@@ -32,19 +32,28 @@ Automated sentiment analysis of extensive financial review videos provides inves
 ```
 
 ## 1. Dataset Download Instructions
+
 CH-SIMS Dataset：https://github.com/thuiar/ch-sims-v2
+
 fasmr Dataset：https://github.com/sunlitsong/FMSA-SC-dataset
+
 MOSEI：https://github.com/kiva12138/CubeMLP
 
 ## 2. Path Configuration for Local Environment
 Step 1: Locate Configuration Files
+
 check main.py for any paths and config
+
 Step 2: Modify Dataset Paths and Pretrained Model Paths
+
 check any .py for any paths
 
 ## 3. Installation and Setup
+
 Normally the pip install command will handle the python dependency packages. (requirements.txt)
 
 ## 4. Run
+
 We have provided the start code in the "main.py".
+
 use: ```python3 python main.py ``` to run.
