@@ -9,9 +9,12 @@
 
 ## Project Structure
 ```python3
-├── dataset/                    # Dataset directory
+├── dataset/                   # Dataset directory
 │   ├── CH-SIMS/               # CH-SIMS dataset
-│   └── fasmr/                 # Other datasets
+│   ├── fasmr/                 # fasmr datasets
+│   ├── mosei_test.pkl         # MOSEI dataset
+│   ├── mosei_train.pkl        # MOSEI dataset
+│   └── mosei_valid.pkl        # MOSEI dataset
 ├── model/                     # Model definitions
 │   ├── __pycache__/          # Python cache files
 │   └── model.py              # Main model implementation
@@ -29,18 +32,19 @@
 ```
 
 ## 1. Dataset Download Instructions
-CH-SIMS Dataset：
-fasmr Dataset：
-Mosei：
+CH-SIMS Dataset：https://github.com/thuiar/ch-sims-v2
+fasmr Dataset：https://github.com/sunlitsong/FMSA-SC-dataset
+MOSEI：https://github.com/kiva12138/CubeMLP
 
 ## 2. Path Configuration for Local Environment
 Step 1: Locate Configuration Files
-check main.py for any hardcoded paths
+check main.py for any paths and config
 Step 2: Modify Dataset Paths and Pretrained Model Paths
-check any .py for any hardcoded paths
+check any .py for any paths
 
 ## 3. Installation and Setup
-Normally the pip install command will handle the python dependency packages.
+Normally the pip install command will handle the python dependency packages. (requirements.txt)
 
 ## 4. Run
 We have provided the start code in the "main.py".
+use: ```python3 python main.py ``` to run.
