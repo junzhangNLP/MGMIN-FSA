@@ -6,7 +6,7 @@ Automated sentiment analysis of extensive financial review videos provides inves
 
 ![](./img.png)
 
-
+![](./FIG-re/fig3.pdf)
 ## Project Structure
 ```python3
 ├── dataset/                   # Dataset directory
